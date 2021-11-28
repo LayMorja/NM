@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Вход</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="css/user.css">
+      <link rel="stylesheet" href="css/media.css">
+   </head>
+   <body>
+      
+
+         <div class="back-arrow">
+            <a href="./index.htm">
+               <svg width="68" height="22" xmlns="http://www.w3.org/2000/svg">
+                  <line stroke="#004e7a" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="11.630411" x2="65.513154" y1="11.630411" x1="1.25" stroke-width="2.5" fill="none"/>
+                  <line transform="rotate(70 55.713348388671875,6.917132377624517) " stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="14.787657" x2="47.84282" y1="-0.953399" x1="63.583875" fill-opacity="null" stroke-opacity="null" stroke-width="2.5" stroke="#004e7a" fill="none"/>
+                  <ellipse ry="0.125" rx="1.187499" id="svg_8" cy="11.512498" cx="64.441831" fill-opacity="null" stroke-opacity="null" stroke-width="2.5" stroke="#004e7a" fill="none"/>
+                  <line transform="rotate(20 55.71335220336913,16.326208114624016) " stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="24.196735" x2="47.842819" y1="8.455679" x1="63.583875" fill-opacity="null" stroke-opacity="null" stroke-width="2.5" stroke="#004e7a" fill="none"/>
+               </svg>
+            </a>
+         </div>
+
+         <div class="center-log">
+            <form id="login">
+               <h1>Вход</h1>
+               <fieldset id="inputs">
+                  <input id="username" type="email" placeholder="E-mail.." required>
+                  <a href="">Забыли пароль?</a>
+                  <input id="password" type="password" placeholder="Пароль.." required>
+               </fieldset>
+               <fieldset id="actions">
+                  <input type="submit" id="submit" value="Войти">
+                  <span>Нет аккаунта? - <a href="#" class="reg-link">Зарегистрироваться</a></span>
+               </fieldset>
+               
+            </form>
+         </div>
+         <div class="center-reg">
+            <form id="registration">
+               <h1>Регистрация</h1>
+               <fieldset id="inputs">
+                  <input id="username" type="email" placeholder="Введите e-mail" required>
+                  <input id="password" type="password" placeholder="Введите пароль" required>
+                  <input id="password-conf" type="password" placeholder="Подтвердите пароль" required>
+               </fieldset>
+               <fieldset id="actions">
+                  <input type="submit" id="submit" value="Зарегистрироваться">
+                  <span>Уже есть аккаунт? - <a href="#" class="log-link">Войти</a></span>
+               </fieldset>
+               
+            </form>
+         </div>
+
+   <script src="js/reg.js"></script>
+   </body>
+</html>

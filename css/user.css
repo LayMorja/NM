@@ -1,0 +1,194 @@
+body {
+   background: #f1faff;
+   padding-top: 6rem;
+}
+#login,
+#registration {
+   background-color: #fff;
+   padding: 2rem;
+   border-radius: 3px;
+   box-shadow:
+      0 0 2px rgba(0, 0, 0, 0.2),  
+      0 1px 1px rgba(0, 0, 0, .2),
+      0 3px 0 #fff,
+      0 4px 0 rgba(0, 0, 0, .2),
+      0 6px 0 #fff;
+}
+h1 {
+   text-transform: uppercase;
+   text-align: center;
+   color: #666;
+   margin: 0 0 30px 0;
+   letter-spacing: 4px;
+   font: 1.8rem;
+   position: relative;
+}
+.center-log.active {
+   display: none;
+}
+.center-reg {
+   display: none;
+}
+.center-reg.active {
+   display: block;
+}
+
+/*--------------------*/
+
+fieldset
+{
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/*--------------------*/
+
+#inputs input {
+   display: block;
+   /* background: #f1f1f1 url(http://www.red-team-design.com/wp-content/uploads/2011/09/login-sprite.png) no-repeat; */
+   padding: 15px 15px 15px 30px;
+   margin: 0 auto;
+   width: 100%;
+   border: 1px solid #ccc;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+   -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+   box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+   font-family: 'Comfortaa', cursive;
+   transition: all .5s ease;
+}
+#inputs > a {
+   display: inline-block;
+   padding: 0.2rem 0.5rem;
+   border-radius: 8px;
+   font-size: 0.8rem;
+   text-decoration: none;
+   color: #222;
+   transition: all .3s ease;
+   /* margin-bottom: 0.4rem; */
+}
+#inputs > a:hover {
+   background: rgba(0, 0, 0, .05)
+}
+#inputs input:not(:last-of-type) {
+   margin-bottom: 1rem;
+}
+
+
+
+#username
+{
+   background-position: 5px -2px !important;
+}
+
+
+
+#password
+{
+   background-position: 5px -52px !important;
+}
+
+#inputs input:focus
+{
+   background-color: #fff;
+   border-color: #129CBE;
+   outline: none;
+   -moz-box-shadow: 0 0 0 1px #129CBE inset;
+   -webkit-box-shadow: 0 0 0 1px #129CBE inset;
+   box-shadow: 0 0 0 1px #129CBE inset;
+}
+
+/*--------------------*/
+#actions
+{
+   margin: 25px 0 0 0;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+#submit {		
+   margin: 0 auto;
+   background: -webkit-linear-gradient(top, #21ABCD 0%, #129CBE 100%);
+   background: -moz-linear-gradient(top, #21ABCD 0%, #129CBE 100%);
+   background: -o-linear-gradient(top, #21ABCD 0%, #129CBE 100%);
+   background: -ms-linear-gradient(top, #21ABCD 0%, #129CBE 100%);
+   background: linear-gradient(to bottom, #21ABCD 0%, #129CBE 100%);
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   border: none;
+   padding: 0.8rem 2rem;
+   cursor: pointer;
+   font-weight: bold;
+   color: #fff;
+   font-family: 'Comfortaa', cursive;
+}
+
+#submit:hover,#submit:focus
+{		
+   background: -webkit-linear-gradient(top, #177a92 0%, #044453 100%);
+   background: -moz-linear-gradient(top, #177a92 0%, #044453 100%);
+   background: -o-linear-gradient(top, #177a92 0%, #044453 100%);
+   background: -ms-linear-gradient(top, #177a92 0%, #044453 100%);
+   background: linear-gradient(to bottom, #177a92 0%, #044453 100%);
+}	
+
+#submit:active {		
+   outline: none;   
+   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;		
+}
+
+#submit::-moz-focus-inner {
+   border: none;
+}
+/* a {
+   display: block;
+   text-align: right;
+} */
+#actions span {
+   text-align: center;
+   color: #666;
+   margin-top: 1.5rem;  
+}
+#actions span a {
+   text-decoration: none;
+   color: #044453;
+}
+#actions span a:hover {
+   text-decoration-line: underline;
+   text-decoration-color: black;
+}
+@media screen and (min-width: 800px) {
+   .center-log,
+   .center-reg {
+      width: 40%;
+      margin: 0 auto;
+   }
+}
+@media screen and (max-width: 800px) {
+   .center-log,
+   .center-reg {
+      width: 60%;
+      margin: 0 auto;
+   }
+}
+@media screen and (max-width: 425px) {
+   .center-log,
+   .center-reg {
+      width: 80%;
+      margin: 0 auto;
+   }
+}
+
+.back-arrow a svg{
+   transform: rotate(180deg);
+   position: absolute;
+   top: 60px;
+   left: 60px;
+}

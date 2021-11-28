@@ -1,0 +1,47 @@
+.master .center {
+   background: linear-gradient(to bottom, #F2F3F4 0%, #E3E4E5 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F2F3F4), color-stop(100%, #E3E4E5));
+   background: -moz-linear-gradient(top, #F2F3F4 0%, #E3E4E5 100%);
+   background: -o-linear-gradient(top, #F2F3F4 0%, #E3E4E5 100%);
+   background: -webkit-linear-gradient(top, #F2F3F4 0%, #E3E4E5 100%);
+   background: -ms-linear-gradient(top, #F2F3F4 0%, #E3E4E5 100%);
+   padding: 1.5rem;
+   border-radius: 8px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.master-description {
+   margin-bottom: 2rem;
+}
+.master-info {
+   text-align: justify;
+}
+.master-description > h1 {
+   margin: 0 0 1rem 0;
+   color: #003350;
+   text-align: center;
+   line-height: 1;
+}
+.master-description > img {
+   float: right;
+   width: 40%;
+   margin-left: 2rem;
+   border-radius: 5px;
+   overflow: hidden;
+   object-fit: cover;
+   max-height: 450px;
+}
+.master-works {
+   display: flex;
+   flex-wrap: wrap;
+}
+.work {
+   margin-bottom: 2%;
+   transition: all .5s ease;
+   border-radius: 5px;
+}
+.works-title {
+   font-size: 1.4rem;
+   color: #003350;
+   text-align: center;
+}
