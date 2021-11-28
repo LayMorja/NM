@@ -28,20 +28,6 @@
    .card:not(:nth-child(3n)) {
       margin-right: 2%;
    }
-   .work {
-      width: 23%;
-      box-shadow: 3px 0px #004d7ac0,
-      0px 3px #004d7ac0,
-      -3px 0px #004d7ac0,
-      0px -3px #004d7ac0;
-   }
-   .work:not(:nth-child(4n)) {
-      margin-right: 2.666666%;
-   }
-   .work:hover {
-      transform: scale(1.5);
-      border-radius: 20px;
-   }
    .header-item.user {
       display: none;
    }

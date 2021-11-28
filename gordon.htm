@@ -12,7 +12,9 @@
       <link rel="stylesheet" href="styles.css">
       <link rel="stylesheet" href="css/master.css">
       <link rel="stylesheet" href="css/media.css">
-      <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <script src="js/jquery-3.6.0.min.js"></script>
    </head>
    <body>
       <!-- "Хедер" сайта -->
@@ -40,7 +42,7 @@
                   </li>                        
                   <li class="header-item">                  
                      <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m1">
-                     <a href="#">Виды изделий</a>
+                     <a href="top.htm">Виды изделий</a>
                      <label for="sub_m1" class="submenu-toggle"><i class="fa"></i></label>
                      <ul class="dropdown-list">
                         <li class="dropdown-item">
@@ -129,38 +131,26 @@
                <div class="clearfix"></div>
             </div>
             
-            <h1 class="works-title">Работы мастера</h1>
-            <div class="master-works">
-               <div class="owl-carousel master-carousel">
-                  <div class="owl-slide">
-                     <img src="img/gordon__work-1.JPG" alt="" class="work">
-                     <div class="owl-slide-text">
-                        <!--  -->
-                     </div>
-                  </div>
-                  <div class="owl-slide">
-                     <img src="img/gordon__work-2.JPG" alt="" class="work">
-                     <div class="owl-slide-text">
-                        <!--  -->
-                     </div>
-                  </div>
-                  <div class="owl-slide">
-                     <img src="img/gordon__work-3.JPG" alt="" class="work">
-                     <div class="owl-slide-text">
-                        <!--  -->
-                     </div>
-                  </div>
-                  <div class="owl-slide">
-                     <img src="img/gordon__work-1.jpg" alt="" class="work">
-                     <div class="owl-slide-text">
-                        <!--  -->
-                     </div>
+            <h1 class="works-title">Работы мастера</h1>            
+            <div class="owl-carousel master-carousel">
+               <div class="owl-slide">
+                  <img src="img/gordon__work-1.JPG" alt="" class="work">
+                  <div class="master-slide-text">
+                     Работа "№1"
                   </div>
                </div>
-               
-               
-               
-               
+               <div class="owl-slide">
+                  <img src="img/gordon__work-2.JPG" alt="" class="work">
+                  <div class="master-slide-text">
+                     Работа "№2"
+                  </div>
+               </div>
+               <div class="owl-slide">
+                  <img src="img/gordon__work-3.JPG" alt="" class="work">
+                  <div class="master-slide-text">
+                     Работа "№3"
+                  </div>
+               </div>  
             </div>
          </div>
       </section>
@@ -221,6 +211,7 @@
 
    <!-- Подключение скриптов -->
    <script src="js/main.js" defer></script>
-   <!-- <script src="js/mainJQ.js" defer></script> -->
+   <script src="js/mainJQ.js" defer></script>
+   <script src="js/owl.carousel.min.js"></script>
    </body>
 </html>

@@ -1,3 +1,6 @@
+.card-section {
+   flex: 1 1 auto;
+}
 .cards {
    display: flex;
    flex-wrap: wrap;
@@ -8,7 +11,20 @@
    padding: 0;
    box-sizing: border-box;
 }
-.card {
+.card-link {
+   display: flex;
+   width: 32.5%;
+   text-decoration: none;
+   transition: all 0.4s ease-in-out;
+}
+.card-link:not(:last-child) {
+   margin-right: 1.25%;
+}
+.card-link > div:hover {
+   box-shadow: 0px 0px 3px 3px #00399c7a;
+}
+.card,
+.card-link > div {
    margin-bottom: 2%;
    border-radius: 5px;
    background: linear-gradient(to bottom, #0095B6 0%, #0086A7 100%);
@@ -27,10 +43,20 @@
 /* .card:hover {   
    box-shadow: 2px 2px 5px black;
 } */
+   .card-img {
+      max-height: 30vh;
+      width: 95%;
+      margin-bottom: 8px;
+      border-radius: 3px;
+   }
    .card h1 {
       font-size: 1.4rem;
       margin: 0;
       text-transform: uppercase;
+   }
+   .card-link h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
    }
    .card-description div:not(:last-child) {
       margin-bottom: 0.5rem;

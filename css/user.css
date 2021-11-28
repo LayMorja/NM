@@ -186,9 +186,20 @@ fieldset
    }
 }
 
-.back-arrow a svg{
-   transform: rotate(180deg);
+.back-arrow a i {
+   font-size: 32px;
    position: absolute;
    top: 60px;
    left: 60px;
+}
+.back-arrow a:link,
+.back-arrow a:visited  {
+   color: #044453;
+   transition: all 0.2s ease-in-out;
+}
+.back-arrow a:hover {
+   color: #0ca7ca;
+}
+.back-arrow a:active {
+   color: #000;
 }

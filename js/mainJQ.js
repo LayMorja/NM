@@ -2,7 +2,7 @@ $(document).ready(function () {
    $(".main-carousel").owlCarousel({
       loop: true,
       autoplay: true,
-      smartSpeed: 2000,
+      smartSpeed: 1500,
       autoplayTimeout: 5500,
       items: 1,
       nav: true,
@@ -14,13 +14,10 @@ $(document).ready(function () {
 $(document).ready(function () {
    $(".master-carousel").owlCarousel({
       loop: true,
-      autoplay: true,
-      smartSpeed: 2000,
-      autoplayTimeout: 5500,
-      items: 1,
+      smartSpeed: 500,
+      items: 3,
       nav: true,
-      dots: true,
-      dotsEach: true,
+      margin: 5,
    });
 }); 
 
