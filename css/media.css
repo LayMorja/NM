@@ -59,6 +59,17 @@
    .header-nav{
       overflow: hidden;
    }
+   .user-block {
+      display: none;
+   }
+   .header-item.user {      
+      display: flex;
+      justify-content: center;
+   }
+   .header-item.user a {
+      background: none;
+      font-size: 20px;
+   }
    .header-nav ul{
       display: block;
       max-height: 0;

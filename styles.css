@@ -217,12 +217,12 @@ html, body {
 .header-nav li a:hover {
    background: #073c49;
    box-shadow: 1px 5px 10px -5px black;
-   transition: all 0.3s ease;
 }
 
 .header-nav li ul {
    position: absolute;
    min-width: 11.25rem;
+   opacity: 0;
    display: none;
 }
 
@@ -240,6 +240,7 @@ html, body {
 
 .header-nav li:hover>ul {
    display: block;
+   opacity: 1;
 }
 /********** Карусель **********/
 .owl-slide {
@@ -282,6 +283,7 @@ html, body {
    text-align: center;
    font-size: 1.2rem;
    font-weight: 500;
+   line-height: 25px;
 }
 
 .owl-nav {
