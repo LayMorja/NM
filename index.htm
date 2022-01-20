@@ -4,10 +4,11 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Мастера Северодвинска</title>
+   <title>Мастера Севера</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/font-awesome.css">
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="styles.css">
@@ -18,349 +19,315 @@
 </head>
 
 <body>
-   <header class="header">
-      <div class="upper-header">
-         <div class="center">
-            <div class="upper-header__content">
-               <span class="site-title"><a href="./index.htm">Мастера Северодвинска</a></span>
+   <div class="wrapper">
+      <header class="header">
+         <div class="upper-header">
+            <div class="center">
+               <div class="upper-header__content">
+                  <span class="site-title"><a href="./index.htm">Мастера Севера</a></span>
 
-               <div class="user-block">
-                  <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                  <a href="login.htm"><i class="fa fa-user" aria-hidden="true"></i></a>
-                  <!-- <button class="m-menu">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                     </button> -->
-               </div>
-
-               <!-- <div class="upper-header_right">
-                     <input type="text" class="search-input" placeholder="Поиск по сайту...">
-
-                     <div class="log-panel">
-                        <div class="entrance" aria-hidden="true">
-                           <div class="modal-dialog">
-                           <div class="modal-header">
-                              <h2>Вход</h2>
-                              <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
-                           </div>
-                           <div class="modal-body">
-                              <input type="text" name="user" placeholder="Логин" size="20" /><br>
-                              <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
-                           <div class="modal-footer">
-                           
-                              <a href="#" class="btn">Войти</a>
-                           </div>
-                           </div>
-                        </div>
-
-                        <div class="registration" aria-hidden="true">
-                           <div class="modal-dialog">
-                           <div class="modal-header">
-                              <h2>Регистрация</h2>
-                              <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
-                           </div>
-                           <div class="modal-body">
-                              <input type="text" name="user" placeholder="Логин" size="20" /><br>
-                              <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
-                           <div class="modal-footer">
-                           
-                              <a href="#" class="btn">Зарегистрироваться</a>
-                           </div>
-                           </div>
-                        </div>
-                        
-                        <a href="#" class="nav-link modal-enter">Вход</a>
-                        <a href="#" class="nav-link modal-reg">Регистрация</a>
-                     </div>
-                  </div> -->
-            </div>
-         </div>
-      </div>
-
-      <nav class="header-nav">
-         <input type="checkbox" name="toggle" id="menu" class="menu-toggle">
-         <label for="menu" class="menu-toggle"><i class="fa fa-bars"></i>Меню</label>
-         <ul class="header-list">
-            <li class="header-item">
-               <a href="./index.htm">Новости</a>
-            </li>
-            <li class="header-item">
-               <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m1">
-               <a href="top.htm">Виды изделий</a>
-               <label for="sub_m1" class="submenu-toggle"><i class="fa"></i></label>
-               <ul class="dropdown-list">
-                  <li class="dropdown-item">
-                     <a href="toys.htm">Игрушки</a>
-                  </li>
-                  <li class="dropdown-item">
-                     <a href="#">Одежда</a>
-                     <ul>
-                        <li><a href="#">Юбки</a></li>
-                        <li><a href="#">Брючки</a></li>
-                        <li><a href="#">Сарафаны</a></li>
-                     </ul>
-                  </li>
-               </ul>
-            </li>
-            <li class="header-item">
-               <a href="#">Виды творчества</a>
-               <ul class="dropdown-list">
-                  <li class="dropdown-item">
-                     <a href="#">Рукоделие</a>
-                  </li>
-                  <li class="dropdown-item">
-                     <a href="#">Традиционное</a>
-                  </li>
-               </ul>
-            </li>
-            <li class="header-item">
-               <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m2">
-               <a href="materials.htm">Материалы</a>
-               <label for="sub_m2" class="submenu-toggle"><i class="fa"></i></label>
-               <ul class="dropdown-list">
-                  <li class="dropdown-item">
-                     <a href="#">Древесина</a>
-                  </li>
-                  <li class="dropdown-item">
-                     <a href="#">Мягкие материалы</a>
-                  </li>
-               </ul>
-            </li>
-            <li class="header-item">
-               <!-- <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m3"> -->
-               <a href="./masters.htm">Мастера</a>
-               <!-- <label for="sub_m3" class="submenu-toggle"><i class="fa"></i></label> -->
-               <!-- <ul class="dropdown-list">
-                        <li class="dropdown-item">
-                           <a href="./balabanova.htm">Балабанова Ирина</a>
-                        </li>
-                        <li class="dropdown-item">
-                           <a href="./gordon.htm">Гордон Елена</a>
-                        </li>
-                        <li class="dropdown-item">
-                           <a href="./primakova.htm">Примакова Наталья</a>
-                        </li>
-                        <li class="dropdown-item">
-                           <a href="./savchenko.htm">Савченко Лариса</a>
-                        </li>
-                        <li class="dropdown-item">
-                           <a href="./torchova.htm">Торохова Анна</a>
-                        </li>
-                     </ul> -->
-            </li>
-            <li class="header-item">
-               <a href="#">Ярмарка Талантов</a>
-            </li>
-            <li class="header-item">
-               <a href="#">Мастер-классы</a>
-            </li>
-            <li class="header-item user">
-                  <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                  <a href="login.htm"><i class="fa fa-user" aria-hidden="true"></i></a>
-            </li>
-         </ul>
-      </nav>
-   </header>
-
-   <!-- Карусель -->
-   <div class="main-carousel-block">
-      <div class="center">
-         <div class="owl-carousel main-carousel">
-            <div class="owl-slide">
-               <img src="img/carousel/1.jpg">
-               <div class="owl-slide-text">
-                  "Мастера Северодвинска" - это...
-               </div>
-            </div>
-            <div class="owl-slide">
-               <img src="img/carousel/2.jpg">
-               <div class="owl-slide-text">
-                  "Мастера Северодвинска" - это...
-               </div>
-            </div>
-            <div class="owl-slide">
-               <img src="img/carousel/3.jpg">
-               <div class="owl-slide-text">
-                  "Мастера Северодвинска" - это...
-               </div>
-            </div>
-            <div class="owl-slide">
-               <img src="img/carousel/4.jpg">
-               <div class="owl-slide-text">
-                  "Мастера Северодвинска" - это...
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-
-   <!-- Основной контент -->
-   <main class="main">
-      <div class="center">
-         <div class="post">
-            <div class="post-header">
-               <div class="user">
-                  <img src="img/icons/avatar48.png" alt="avatar" class="user-avatar">
-                  <div class="post-info">
-                     <a href="#" class="post-author">Машенков Тимофей</a>
-                     <!-- <div class="post-info-time">
-                           <span class="post-time">3 ч</span>
-                           <svg width="14" height="14" class="setting-icon">
-                              <use xlink:href="img/icons.svg#settings"></use>
-                           </svg>
-                        </div> -->
+                  <div class="user-block">
+                     <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                     <a href="login.htm"><i class="fa fa-user" aria-hidden="true"></i></a>
+                     <!-- <button class="m-menu">
+                           <span class="line"></span>
+                           <span class="line"></span>
+                           <span class="line"></span>
+                        </button> -->
                   </div>
-               </div>
-               <button class="post-button">
-                  <svg class="post-button-icon">
-                     <use xlink:href="img/icons.svg#dots"></use>
-                  </svg>
-               </button>
-            </div>
-            <!-- /.post-header -->
-            <div class="post-content">
-               <p class="post-text">
-                  Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Диких безопасную
-                  коварных вдали? Дал заглавных текста использовало она языкового агентство. Меня великий скатился
-                  первую о lorem необходимыми, повстречался строчка жаренные лучше использовало, своих, наш курсивных
-                  большой агентство? Большого подпоясал, за рукописи оксмокс обеспечивает своего страна о проектах рот
-                  гор. <a href="http://tc.edu.severodvinsk.ru">Северный Кванториум</a>
-               </p>
-               <img src="img/post/1.jpg" alt="post-image" class="post-image">
-            </div>
-            <div class="post-footer">
-               <button class="post-button">
-                  <svg class="post-button-icon">
-                     <use xlink:href="img/icons.svg#like"></use>
-                  </svg>
-                  <!-- <span class="post-button-text">Количество лайков</span> -->
-               </button>
-               <button class="post-button">
-                  <svg class="post-button-icon">
-                     <use xlink:href="img/icons.svg#chat"></use>
-                  </svg>
-                  <!-- <span class="post-button-text">Количество комментариев</span> -->
-               </button>
-               <button class="post-button">
-                  <svg class="post-button-icon">
-                     <use xlink:href="img/icons.svg#share"></use>
-                  </svg>
-                  <!-- <span class="post-button-text">Количество поделившихся</span> -->
-               </button>
-            </div>
-            <!-- /.post-footer -->
-         </div>
-         <!-- /.post -->
-         <div class="post">
-            <div class="post-header">
-               <div class="user">
-                  <img src="img/icons/avatar48.png" alt="avatar" class="user-avatar">
-                  <div class="post-info">
-                     <a href="#" class="post-author">Машенков Тимфоей</a>
-                     <!-- <div class="post-info-time">
-                           <span class="post-time">3 ч</span>
-                           <svg width="14" height="14" class="setting-icon">
-                              <use xlink:href="img/icons.svg#settings"></use>
-                           </svg>
-                        </div> -->
-                  </div>
-               </div>
-               <button class="post-button">
-                  <svg class="post-button-icon">
-                     <use xlink:href="img/icons.svg#dots"></use>
-                  </svg>
-               </button>
-            </div>
-            <!-- /.post-header -->
-            <div class="post-content">
-               <p class="post-text">
-                  Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Приставка
-                  переписывается мир своих щеке текст обеспечивает прямо, от всех взгляд? Пор безорфографичный родного,
-                  сих толку даже своего осталось города дал, агентство свое взгляд, большого переулка реторический текст
-                  текстов страну? Вопрос составитель текста на берегу, агентство даль что использовало запятой.
-                  Составитель, это. <a href="http://tc.edu.severodvinsk.ru">Северный Кванториум</a>
-               </p>
-               <img src="img/post/2.jfif" alt="post-image" class="post-image">
-            </div>
-            <!-- /.post-content -->
-            <div class="post-footer">
-               <button class="post-button">
-                  <svg class="post-button-icon">
-                     <use xlink:href="img/icons.svg#like"></use>
-                  </svg>
-                  <!-- <span class="post-button-text">Количесвто лайков</span> -->
-               </button>
-               <button class="post-button">
-                  <svg class="post-button-icon">
-                     <use xlink:href="img/icons.svg#chat"></use>
-                  </svg>
-                  <!-- <span class="post-button-text">Количество комментариев</span> -->
-               </button>
-               <button class="post-button">
-                  <svg class="post-button-icon">
-                     <use xlink:href="img/icons.svg#share"></use>
-                  </svg>
-                  <!-- <span class="post-button-text">Количество поделившихся</span> -->
-               </button>
-            </div>
-            <!-- /.post-footer -->
-         </div>
-         <!-- /.post -->
-      </div>
-   </main>
 
-   <footer class="footer">
-      <div class="upper-footer">
-         <div class="center">
-            <!-- <div class="foot-menu">
-                  <ul class="foot-list">
-                     <li class="foot-item">
-                        <a href="./index.htm" class="nav-link">Новости</a>
-                     </li>                        
-                     <li class="foot-item">
-                        <a href="#" class="nav-link">Виды работ</a>
+                  <!-- <div class="upper-header_right">
+                        <input type="text" class="search-input" placeholder="Поиск по сайту...">
+
+                        <div class="log-panel">
+                           <div class="entrance" aria-hidden="true">
+                              <div class="modal-dialog">
+                              <div class="modal-header">
+                                 <h2>Вход</h2>
+                                 <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+                              </div>
+                              <div class="modal-body">
+                                 <input type="text" name="user" placeholder="Логин" size="20" /><br>
+                                 <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+                              <div class="modal-footer">
+                              
+                                 <a href="#" class="btn">Войти</a>
+                              </div>
+                              </div>
+                           </div>
+
+                           <div class="registration" aria-hidden="true">
+                              <div class="modal-dialog">
+                              <div class="modal-header">
+                                 <h2>Регистрация</h2>
+                                 <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+                              </div>
+                              <div class="modal-body">
+                                 <input type="text" name="user" placeholder="Логин" size="20" /><br>
+                                 <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+                              <div class="modal-footer">
+                              
+                                 <a href="#" class="btn">Зарегистрироваться</a>
+                              </div>
+                              </div>
+                           </div>
+                           
+                           <a href="#" class="nav-link modal-enter">Вход</a>
+                           <a href="#" class="nav-link modal-reg">Регистрация</a>
+                        </div>
+                     </div> -->
+               </div>
+            </div>
+         </div>
+
+         <nav class="header-nav">
+            <input type="checkbox" name="toggle" id="menu" class="menu-toggle">
+            <label for="menu" class="menu-toggle"><i class="fa fa-bars"></i>Меню</label>
+            <ul class="header-list">
+               <!-- <li class="header-item">
+                  <a href="./index.htm">Новости</a>
+               </li> -->
+               <li class="header-item">
+                  <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m1">
+                  <a href="top.htm">Виды изделий</a>
+                  <label for="sub_m1" class="submenu-toggle"><i class="fa"></i></label>
+                  <ul class="dropdown-list">
+                     <li class="dropdown-item">
+                        <a href="toys.htm">Игрушки</a>
                      </li>
-                     <li class="foot-item">
-                        <a href="./masters.htm" class="nav-link">Мастера</a>
-                     </li>
-                     <li class="foot-item">
-                        <a href="#" class="nav-link">Ярмарка Талантов</a>
-                     </li>
-                     <li class="foot-item">
-                        <a href="#" class="nav-link">Мастер-классы</a>
+                     <li class="dropdown-item">
+                        <a href="#">Одежда</a>
+                        <ul>
+                           <li><a href="#">Юбки</a></li>
+                           <li><a href="#">Брючки</a></li>
+                           <li><a href="#">Сарафаны</a></li>
+                        </ul>
                      </li>
                   </ul>
-               </div> -->
+               </li>
+               <li class="header-item">
+                  <a href="#">Виды творчества</a>
+                  <ul class="dropdown-list">
+                     <li class="dropdown-item">
+                        <a href="#">Рукоделие</a>
+                     </li>
+                     <li class="dropdown-item">
+                        <a href="#">Традиционное</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="header-item">
+                  <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m2">
+                  <a href="materials.htm">Материалы</a>
+                  <label for="sub_m2" class="submenu-toggle"><i class="fa"></i></label>
+                  <ul class="dropdown-list">
+                     <li class="dropdown-item">
+                        <a href="#">Древесина</a>
+                     </li>
+                     <li class="dropdown-item">
+                        <a href="#">Мягкие материалы</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="header-item">
+                  <!-- <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m3"> -->
+                  <a href="./masters.htm">Мастера</a>
+                  <!-- <label for="sub_m3" class="submenu-toggle"><i class="fa"></i></label> -->
+                  <!-- <ul class="dropdown-list">
+                           <li class="dropdown-item">
+                              <a href="./balabanova.htm">Балабанова Ирина</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./gordon.htm">Гордон Елена</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./primakova.htm">Примакова Наталья</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./savchenko.htm">Савченко Лариса</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./torchova.htm">Торохова Анна</a>
+                           </li>
+                        </ul> -->
+               </li>
+               <!-- <li class="header-item">
+                  <a href="#">Ярмарка Талантов</a>
+               </li> -->
+               <li class="header-item">
+                  <a href="#">Мастер-классы</a>
+               </li>
+               <li class="header-item user">
+                     <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                     <a href="login.htm"><i class="fa fa-user" aria-hidden="true"></i></a>
+               </li>
+            </ul>
+         </nav>
+      </header>
 
-            <!-- <span class="site-title"><a href="./index.htm">Мастера Северодвинска</a></span> -->
-
-            <div class="foot-contact">
-               <ul class="foot-list">
-                  <li class="foot-item">
-                     <!-- <h2 class="foot-header">Телефон:</h2> -->
-                     <i class="fa fa-phone"></i>
-                     <a href="tel:+79116562686" class="nav-link">+79116562686</a>
-                  </li>
-                  <li class="foot-item">
-                     <!-- <h2 class="foot-header">Электронная почта:</h2> -->
-                     <i class="fa fa-envelope-o"></i>
-                     <a href="mailto:evil-corporaty@yandex.ru" class="nav-link">evil-corporaty@yandex.ru</a>
-                  </li>
-               </ul>
+      <!-- Карусель -->
+      <div class="main-carousel-block">
+         <div class="owl-carousel main-carousel">
+            <div class="owl-slide">
+               <img src="img/carousel/3.webp">
+               <div class="owl-slide-text">
+                  "Мастера Севера" - это изделия, выполненные в технике традиционных ремесел, отражающие особенности традиционного народного искусства региона
+               </div>
             </div>
-
-
-
+            <div class="owl-slide">
+               <img src="img/carousel/5.webp">
+               <div class="owl-slide-text">
+                  "Мастера Севера" - это изделия, выполненные в технике традиционных ремесел, отражающие особенности традиционного народного искусства региона
+               </div>
+            </div>
+            <div class="owl-slide">
+               <img src="img/carousel/6.webp">
+               <div class="owl-slide-text">
+                  "Мастера Севера" - это изделия, выполненные в технике традиционных ремесел, отражающие особенности традиционного народного искусства региона
+               </div>
+            </div>
+            <div class="owl-slide">
+               <img src="img/carousel/7.webp">
+               <div class="owl-slide-text">
+                  "Мастера Севера" - это изделия, выполненные в технике традиционных ремесел, отражающие особенности традиционного народного искусства региона
+               </div>
+            </div>
+            <div class="owl-slide">
+               <img src="img/carousel/8.webp">
+               <div class="owl-slide-text">
+                  "Мастера Севера" - это изделия, выполненные в технике традиционных ремесел, отражающие особенности традиционного народного искусства региона
+               </div>
+            </div>
+            <div class="owl-slide">
+               <img src="img/carousel/9.webp">
+               <div class="owl-slide-text">
+                  "Мастера Севера" - это изделия, выполненные в технике традиционных ремесел, отражающие особенности традиционного народного искусства региона
+               </div>
+            </div>
          </div>
       </div>
 
-      <div class="lower-footer">
-         <span class="foot-des">
-            Создатель сайта - Машенков Тимофей
-         </span>
-      </div>
-   </footer>
+      <!-- Основной контент -->
+      <main class="main">
+         <div class="center">
+            <div class="index-menu">
+               <h1 class="index-menu__header">Направления творчества:</h1>
+               <div class="index-menu__row">
+                  <div class="index-menu__block block">
+                     <h2 class="block__title">Резьба по дереву</h2>
+                     <div class="block__background">
+                        <img src="img/index-menu/1.webp" alt="">
+                     </div>
+                  </div>
+                  <div class="index-menu__block block">
+                     <h2 class="block__title">Плетение из корня</h2>
+                     <div class="block__background">
+                        <img src="img/index-menu/2.webp" alt="">
+                     </div>
+                  </div>
+                  <div class="index-menu__block block">
+                     <h2 class="block__title">Народная кукла</h2>
+                     <div class="block__background">
+                        <img src="img/index-menu/3.webp" alt="">
+                     </div>
+                  </div>
+               </div>
+               <div class="index-menu__row">
+                  <div class="index-menu__block block">
+                     <h2 class="block__title">Вышивка</h2>
+                     <div class="block__background">
+                        <img src="img/index-menu/4.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="index-menu__block block">
+                     <h2 class="block__title">Лоскутное шитьё</h2>
+                     <div class="block__background">
+                        <img src="img/index-menu/5.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="index-menu__block block">
+                     <h2 class="block__title">Каргопольская игрушка</h2>
+                     <div class="block__background">
+                        <img src="img/index-menu/6.webp" alt="">
+                     </div>
+                  </div>
+               </div>
+               <div class="index-menu__row">
+                  <div class="index-menu__block block">
+                     <h2 class="block__title">Обработка бересты</h2>
+                     <div class="block__background">
+                        <img src="img/index-menu/7.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="index-menu__block block">
+                     <h2 class="block__title">Орнаментальное вязание</h2>
+                     <div class="block__background">
+                        <img src="img/index-menu/8.jpg" alt="">
+                     </div>
+                  </div>
+                  <div class="index-menu__block block">
+                     <h2 class="block__title">Роспись</h2>
+                     <div class="block__background">
+                        <img src="img/index-menu/9.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <footer class="footer">
+         <div class="upper-footer">
+            <div class="center">
+               <!-- <div class="foot-menu">
+                     <ul class="foot-list">
+                        <li class="foot-item">
+                           <a href="./index.htm" class="nav-link">Новости</a>
+                        </li>                        
+                        <li class="foot-item">
+                           <a href="#" class="nav-link">Виды работ</a>
+                        </li>
+                        <li class="foot-item">
+                           <a href="./masters.htm" class="nav-link">Мастера</a>
+                        </li>
+                        <li class="foot-item">
+                           <a href="#" class="nav-link">Ярмарка Талантов</a>
+                        </li>
+                        <li class="foot-item">
+                           <a href="#" class="nav-link">Мастер-классы</a>
+                        </li>
+                     </ul>
+                  </div> -->
+
+               <!-- <span class="site-title"><a href="./index.htm">Мастера Севера</a></span> -->
+
+               <div class="foot-contact">
+                  <ul class="foot-list">
+                     <li class="foot-item">
+                        <!-- <h2 class="foot-header">Телефон:</h2> -->
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:+79116562686" class="nav-link">+79116562686</a>
+                     </li>
+                     <li class="foot-item">
+                        <!-- <h2 class="foot-header">Электронная почта:</h2> -->
+                        <i class="fa fa-envelope-o"></i>
+                        <a href="mailto:evil-corporaty@yandex.ru" class="nav-link">evil-corporaty@yandex.ru</a>
+                     </li>
+                  </ul>
+               </div>
+
+
+
+            </div>
+         </div>
+
+         <div class="lower-footer">
+            <span class="foot-des">
+               Создатель сайта - Машенков Тимофей
+            </span>
+         </div>
+      </footer>
+   </div>
 
    <!-- Подключение скриптов -->
    <script src="js/main.js" defer></script>

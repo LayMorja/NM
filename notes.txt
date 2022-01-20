@@ -1,0 +1,108 @@
+<b>post</b>
+<div class="post">
+            <div class="post-header">
+               <div class="user">
+                  <img src="img/icons/avatar48.png" alt="avatar" class="user-avatar">
+                  <div class="post-info">
+                     <a href="#" class="post-author">Машенков Тимофей</a>
+                     <!-- <div class="post-info-time">
+                           <span class="post-time">3 ч</span>
+                           <svg width="14" height="14" class="setting-icon">
+                              <use xlink:href="img/icons.svg#settings"></use>
+                           </svg>
+                        </div> -->
+                  </div>
+               </div>
+               <button class="post-button">
+                  <svg class="post-button-icon">
+                     <use xlink:href="img/icons.svg#dots"></use>
+                  </svg>
+               </button>
+            </div>
+            <!-- /.post-header -->
+            <div class="post-content">
+               <p class="post-text">
+                  Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Диких безопасную
+                  коварных вдали? Дал заглавных текста использовало она языкового агентство. Меня великий скатился
+                  первую о lorem необходимыми, повстречался строчка жаренные лучше использовало, своих, наш курсивных
+                  большой агентство? Большого подпоясал, за рукописи оксмокс обеспечивает своего страна о проектах рот
+                  гор. <a href="http://tc.edu.severodvinsk.ru">Северный Кванториум</a>
+               </p>
+               <img src="img/post/1.jpg" alt="post-image" class="post-image">
+            </div>
+            <div class="post-footer">
+               <button class="post-button">
+                  <svg class="post-button-icon">
+                     <use xlink:href="img/icons.svg#like"></use>
+                  </svg>
+                  <!-- <span class="post-button-text">Количество лайков</span> -->
+               </button>
+               <button class="post-button">
+                  <svg class="post-button-icon">
+                     <use xlink:href="img/icons.svg#chat"></use>
+                  </svg>
+                  <!-- <span class="post-button-text">Количество комментариев</span> -->
+               </button>
+               <button class="post-button">
+                  <svg class="post-button-icon">
+                     <use xlink:href="img/icons.svg#share"></use>
+                  </svg>
+                  <!-- <span class="post-button-text">Количество поделившихся</span> -->
+               </button>
+            </div>
+            <!-- /.post-footer -->
+         </div>
+         <div class="post">
+            <div class="post-header">
+               <div class="user">
+                  <img src="img/icons/avatar48.png" alt="avatar" class="user-avatar">
+                  <div class="post-info">
+                     <a href="#" class="post-author">Машенков Тимфоей</a>
+                     <!-- <div class="post-info-time">
+                           <span class="post-time">3 ч</span>
+                           <svg width="14" height="14" class="setting-icon">
+                              <use xlink:href="img/icons.svg#settings"></use>
+                           </svg>
+                        </div> -->
+                  </div>
+               </div>
+               <button class="post-button">
+                  <svg class="post-button-icon">
+                     <use xlink:href="img/icons.svg#dots"></use>
+                  </svg>
+               </button>
+            </div>
+            <!-- /.post-header -->
+            <div class="post-content">
+               <p class="post-text">
+                  Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Приставка
+                  переписывается мир своих щеке текст обеспечивает прямо, от всех взгляд? Пор безорфографичный родного,
+                  сих толку даже своего осталось города дал, агентство свое взгляд, большого переулка реторический текст
+                  текстов страну? Вопрос составитель текста на берегу, агентство даль что использовало запятой.
+                  Составитель, это. <a href="http://tc.edu.severodvinsk.ru">Северный Кванториум</a>
+               </p>
+               <img src="img/post/2.jfif" alt="post-image" class="post-image">
+            </div>
+            <!-- /.post-content -->
+            <div class="post-footer">
+               <button class="post-button">
+                  <svg class="post-button-icon">
+                     <use xlink:href="img/icons.svg#like"></use>
+                  </svg>
+                  <!-- <span class="post-button-text">Количесвто лайков</span> -->
+               </button>
+               <button class="post-button">
+                  <svg class="post-button-icon">
+                     <use xlink:href="img/icons.svg#chat"></use>
+                  </svg>
+                  <!-- <span class="post-button-text">Количество комментариев</span> -->
+               </button>
+               <button class="post-button">
+                  <svg class="post-button-icon">
+                     <use xlink:href="img/icons.svg#share"></use>
+                  </svg>
+                  <!-- <span class="post-button-text">Количество поделившихся</span> -->
+               </button>
+            </div>
+            <!-- /.post-footer -->
+         </div>
