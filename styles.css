@@ -15,7 +15,7 @@ body {
    line-height: 1.375rem;
    background-color: #f1faff;
    padding-top: 9.025rem;
-   font-family: 'Comfortaa', cursive;
+   font-family: 'Montserrat', sans-serif;
 }
 
 html, body {
@@ -148,7 +148,9 @@ html, body {
 .search-input:focus {
    background-color: #fff;
 }
-
+.site-title {
+   display: flex;
+}
 .site-title a {
    font-size: 2.8rem;
    color: #fdfdfd;
@@ -159,17 +161,49 @@ html, body {
 
 .site-title a:hover {
    text-shadow: 0 4px 4px #00389C;
+   transition: all 0.4s ease-in-out;
 }
 
+.site-title span {
+   font-size: 24px;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
 .user-block>a {
    color: #fff;
    font-size: 1.8rem;
    transition: text-shadow .3s ease;
+   position: relative;
 }
 
 .user-block>a:hover {
    text-shadow: 0 4px 4px #00389C;
+   transition: all 0.2s ease-in-out;
 }
+.user-block>a:after {
+   content: '';
+   opacity: 0;
+   transform: translateY(-100%);
+}
+.user-block>a:first-child:hover:after,
+.user-block>a:last-child:hover:after {
+   position: absolute;
+   font-size: 16px;
+   white-space: nowrap;
+   top: 20px;
+   right: -50px;
+   text-shadow: none;
+   opacity: 1;
+   transform: translateY(0);
+   transition: all 0.35s ease;
+}
+.user-block>a:first-child:hover:after {
+   content: "Поиск по сайту";
+}
+.user-block>a:last-child:hover:after {
+   content: "Об авторе";
+}
+
 
 .user-block>a:last-of-type {
    margin-left: 1.5rem;
@@ -211,7 +245,6 @@ html, body {
    text-decoration: none;
    text-transform: uppercase;
    transition: all 0.3s ease;
-   font-family: 'Comfortaa', cursive;
 }
 
 .header-nav li a:hover {
@@ -281,11 +314,11 @@ html, body {
 .owl-slide-text {
    font-family: "Montserrat";
    z-index: 2;
-   width: 75%;
+   display: inline-block;
    line-height: 120%;
    position: absolute;
-   left: 20%;
-   bottom: 20%;
+   right: 5%;
+   bottom: 5%;
    font-size: 2rem;
    color: #fff;
    background: #06313bc5;
@@ -349,12 +382,17 @@ html, body {
    text-align: left;
    color: #05262e;
    font-family: "Montserrat";
+   font-weight: 700;
+   padding-top: 50px;
+   font-size: 36px;
+   line-height: 110%;
 }
 
 .index-menu__row {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
+   justify-content: space-between;
 }
 
 .block {
@@ -367,9 +405,9 @@ html, body {
    transition: all 0.2s ease;
    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
-.index-menu__block:not(:nth-child(3n)) {
+/* .block:not(:nth-child(3n)) {
    margin-right: 2%;
-}
+} */
 .block:after {
    content: '';
    width: 100%;
@@ -393,7 +431,7 @@ html, body {
    text-align: center;
    color: #fff;
    font-family: "Montserrat";
-   font-weight: bold;
+   font-weight: 600;
    letter-spacing: 3px;
    position: absolute;
    top: 50%;

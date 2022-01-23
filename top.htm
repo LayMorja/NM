@@ -6,7 +6,7 @@
       <title>Мастера Северодвинска</title>
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/font-awesome.css">
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="styles.css">
@@ -21,144 +21,242 @@
             <div class="upper-header">
                <div class="center">
                   <div class="upper-header__content">
-                     
-                     <span class="site-title"><a href="./index.htm">Мастера Северодвинска</a></span>
-
+                     <span class="site-title"><a href="./index.htm">Мастера Севера </a> <span>&nbsp;—&nbsp;путеводитель по народному творчеству!</span></span>
+   
                      <div class="user-block">
                         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                         <a href="login.htm"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        <!-- <button class="m-menu">
+                              <span class="line"></span>
+                              <span class="line"></span>
+                              <span class="line"></span>
+                           </button> -->
                      </div>
+   
+                     <!-- <div class="upper-header_right">
+                           <input type="text" class="search-input" placeholder="Поиск по сайту...">
+   
+                           <div class="log-panel">
+                              <div class="entrance" aria-hidden="true">
+                                 <div class="modal-dialog">
+                                 <div class="modal-header">
+                                    <h2>Вход</h2>
+                                    <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+                                 </div>
+                                 <div class="modal-body">
+                                    <input type="text" name="user" placeholder="Логин" size="20" /><br>
+                                    <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+                                 <div class="modal-footer">
+                                 
+                                    <a href="#" class="btn">Войти</a>
+                                 </div>
+                                 </div>
+                              </div>
+   
+                              <div class="registration" aria-hidden="true">
+                                 <div class="modal-dialog">
+                                 <div class="modal-header">
+                                    <h2>Регистрация</h2>
+                                    <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+                                 </div>
+                                 <div class="modal-body">
+                                    <input type="text" name="user" placeholder="Логин" size="20" /><br>
+                                    <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+                                 <div class="modal-footer">
+                                 
+                                    <a href="#" class="btn">Зарегистрироваться</a>
+                                 </div>
+                                 </div>
+                              </div>
+                              
+                              <a href="#" class="nav-link modal-enter">Вход</a>
+                              <a href="#" class="nav-link modal-reg">Регистрация</a>
+                           </div>
+                        </div> -->
                   </div>
                </div>
             </div>
-
+   
             <nav class="header-nav">
-                  <input type="checkbox" name="toggle" id="menu" class="menu-toggle">
-                  <label for="menu" class="menu-toggle"><i class="fa fa-bars"></i>Меню</label>
-                  <ul class="header-list">
-                     <li class="header-item">
-                        <a href="./index.htm">Новости</a>
-                     </li>                        
-                     <li class="header-item">                  
-                        <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m1">
-                        <a href="top.htm">Виды изделий</a>
-                        <label for="sub_m1" class="submenu-toggle"><i class="fa"></i></label>
-                        <ul class="dropdown-list">
-                           <li class="dropdown-item">
-                              <a href="toys.htm">Игрушки</a>
-                           </li>
-                           <li class="dropdown-item">
-                              <a href="#">Одежда</a>
-                              <ul>
-                                 <li><a href="#">Юбки</a></li>
-                                 <li><a href="#">Брючки</a></li>
-                                 <li><a href="#">Сарафаны</a></li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li class="header-item">
-                        <a href="#">Виды творчества</a>
-                        <ul class="dropdown-list">
-                           <li class="dropdown-item">
-                              <a href="#">Рукоделие</a>
-                           </li>
-                           <li class="dropdown-item">
-                              <a href="#">Традиционное</a>
-                           </li>
-                        </ul>
-                     </li>
-                     <li class="header-item">
-                        <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m2">
-                        <a href="materials.htm">Материалы</a>
-                        <label for="sub_m2" class="submenu-toggle"><i class="fa"></i></label>
-                        <ul class="dropdown-list">
-                           <li class="dropdown-item">
-                              <a href="#">Древесина</a>
-                           </li>
-                           <li class="dropdown-item">
-                              <a href="#">Мягкие материалы</a>
-                           </li>
-                        </ul>
-                     </li>
-                     <li class="header-item">
-                        <!-- <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m3"> -->
-                        <a href="./masters.htm">Мастера</a>
-                        <!-- <label for="sub_m3" class="submenu-toggle"><i class="fa"></i></label> -->
-                        <!-- <ul class="dropdown-list">
-                           <li class="dropdown-item">
-                              <a href="./balabanova.htm">Балабанова Ирина</a>
-                           </li>
-                           <li class="dropdown-item">
-                              <a href="./gordon.htm">Гордон Елена</a>
-                           </li>
-                           <li class="dropdown-item">
-                              <a href="./primakova.htm">Примакова Наталья</a>
-                           </li>
-                           <li class="dropdown-item">
-                              <a href="./savchenko.htm">Савченко Лариса</a>
-                           </li>
-                           <li class="dropdown-item">
-                              <a href="./torchova.htm">Торохова Анна</a>
-                           </li>
-                        </ul> -->
-                     </li>
-                     <li class="header-item">
-                        <a href="#">Ярмарка Талантов</a>
-                     </li>
-                     <li class="header-item">
-                        <a href="#">Мастер-классы</a>
-                     </li>
-                  </ul>
+               <input type="checkbox" name="toggle" id="menu" class="menu-toggle">
+               <label for="menu" class="menu-toggle"><i class="fa fa-bars"></i>Меню</label>
+               <ul class="header-list">
+                  <!-- <li class="header-item">
+                     <a href="./index.htm">Новости</a>
+                  </li> -->
+                  <li class="header-item">
+                     <a href="top.htm">Виды ремёсел</a>
+                  </li>
+                  <!-- <li class="header-item">
+                     <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m1">
+                     <a href="top.htm">Виды изделий</a>
+                     <label for="sub_m1" class="submenu-toggle"><i class="fa"></i></label>
+                     <ul class="dropdown-list">
+                        <li class="dropdown-item">
+                           <a href="toys.htm">Игрушки</a>
+                        </li>
+                        <li class="dropdown-item">
+                           <a href="#">Одежда</a>
+                           <ul>
+                              <li><a href="#">Юбки</a></li>
+                              <li><a href="#">Брючки</a></li>
+                              <li><a href="#">Сарафаны</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>               
+                  <li class="header-item">
+                     <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m2">
+                     <a href="materials.htm">Материалы</a>
+                     <label for="sub_m2" class="submenu-toggle"><i class="fa"></i></label>
+                     <ul class="dropdown-list">
+                        <li class="dropdown-item">
+                           <a href="#">Древесина</a>
+                        </li>
+                        <li class="dropdown-item">
+                           <a href="#">Мягкие материалы</a>
+                        </li>
+                     </ul>
+                  </li> -->
+                  <li class="header-item">
+                     <!-- <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m3"> -->
+                     <a href="./masters.htm">Мастера Северодвинска</a>
+                     <!-- <label for="sub_m3" class="submenu-toggle"><i class="fa"></i></label> -->
+                     <!-- <ul class="dropdown-list">
+                              <li class="dropdown-item">
+                                 <a href="./balabanova.htm">Балабанова Ирина</a>
+                              </li>
+                              <li class="dropdown-item">
+                                 <a href="./gordon.htm">Гордон Елена</a>
+                              </li>
+                              <li class="dropdown-item">
+                                 <a href="./primakova.htm">Примакова Наталья</a>
+                              </li>
+                              <li class="dropdown-item">
+                                 <a href="./savchenko.htm">Савченко Лариса</a>
+                              </li>
+                              <li class="dropdown-item">
+                                 <a href="./torchova.htm">Торохова Анна</a>
+                              </li>
+                           </ul> -->
+                  </li>
+                  <!-- <li class="header-item">
+                     <a href="#">Ярмарка Талантов</a>
+                  </li> -->
+                  <li class="header-item">
+                     <a href="#">Мастер-классы</a>
+                  </li>
+                  <li class="header-item">
+                     <a href="#">Интересные места</a>
+                  </li>
+                  <li class="header-item user">
+                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a href="login.htm"><i class="fa fa-user" aria-hidden="true"></i></a>
+                  </li>
+               </ul>
             </nav>
          </header>
 
          <!-- Основной контент -->
-         <!-- <nav class="masters-menu">
-            <ul>
-               <li><a href="#">Балабанова Ирина</a></li>
-               <li><a href="#">Гордон Елена</a></li>
-               <li><a href="#">Примакова Наталья</a></li>
-               <li><a href="#">Савченко Лариса</a></li>
-               <li><a href="#">Торохова Анна</a></li>
-            </ul>
-         </nav> -->
-         <section class="card-section">
+         <main class="main">
             <div class="center">
-               <div class="cards">
-                  <a href="toys.htm" class="card-link">
-                     <div>
-                        <img src="img/top/1.jpg" class="card-img">
-                        <h2 class="card-header">Игрушки</h2>
+               <div class="index-menu">
+                  <h1 class="index-menu__header">Направления творчества:</h1>
+                  <div class="index-menu__row">
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Резьба по дереву</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/1.webp" alt="">
+                        </div>
                      </div>
-                  </a>
-                  <a href="#" class="card-link">
-                     <div>
-                        <img src="img/top/2.jpg" class="card-img">
-                        <h2 class="card-header">Сувениры</h2>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Плетение из корня</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/2.webp" alt="">
+                        </div>
                      </div>
-                  </a>
-                  <a href="#" class="card-link">
-                     <div>
-                        <img src="img/top/3.jpg" class="card-img">
-                        <h2 class="card-header">Одежда</h2>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Народная кукла</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/3.webp" alt="">
+                        </div>
                      </div>
-                  </a>
-                  <a href="#" class="card-link">
-                     <div>
-                        <img src="img/top/4.jpg" class="card-img">
-                        <h2 class="card-header">Мебель</h2>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Вышивка</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/4.webp" alt="">
+                        </div>
                      </div>
-                  </a>
-                  <a href="#" class="card-link">
-                     <div>
-                        <img src="img/top/5.jpg" class="card-img">
-                        <h2 class="card-header">Козули</h2>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Лоскутное шитьё</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/5.webp" alt="">
+                        </div>
                      </div>
-                  </a>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Каргопольская игрушка</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/6.webp" alt="">
+                        </div>
+                     </div>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Обработка бересты</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/7.webp" alt="">
+                        </div>
+                     </div>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Орнаментальное вязание</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/8.webp" alt="">
+                        </div>
+                     </div>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Роспись</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/9.webp" alt="">
+                        </div>
+                     </div>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Народный костюм</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/10.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Керамика</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/11.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Гончарное дело</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/12.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Ткачество</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/13.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Кружево</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/14.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="index-menu__block block">
+                        <h2 class="block__title">Бондарное дело</h2>
+                        <div class="block__background">
+                           <img src="img/index-menu/15.jpeg" alt="">
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
-         </section>      
+         </main>  
          
          <!-- Подвал сайта -->
          <footer class="footer">
