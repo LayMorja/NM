@@ -5,6 +5,8 @@
 //    sidebar.classList.toggle('active')
 // })
 
+var mixer = mixitup(".index-menu__row");
+
 document.addEventListener('DOMContentLoaded', () => {
   const onScrollHeader = () => { // объявляем основную функцию onScrollHeader
 
