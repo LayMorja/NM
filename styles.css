@@ -240,7 +240,6 @@ html, body {
    background: -ms-linear-gradient(top, #21ABCD 0%, #129CBE 100%);
    background: linear-gradient(to bottom, #21ABCD 0%, #129CBE 100%);
    padding: 15px;
-   font-size: 0.875rem;
    color: #ffffff;
    text-decoration: none;
    text-transform: uppercase;

@@ -93,6 +93,7 @@
    }
    .header-nav label.menu-toggle{
       display: block;
+      font-size: 1.3rem;
    }
    input.menu-toggle:checked + label.menu-toggle{
       background: #0a5a6e;
@@ -164,6 +165,10 @@
 @media (max-width: 500px) {
    .index-menu__header {
       font-size: 25px;
+      padding-top: 20px;
+   }
+   .index-menu__button {
+      font-size: 1.1rem;
    }
 }
 @media screen and (max-width: 425px) {
@@ -171,23 +176,19 @@
       font-size: 20px;
    }
    .block {
-      max-height: 200px;
+      height: 170px;
    }
    .block__title {
       font-size: 1.1rem;
+      letter-spacing: normal;
       font-weight: 700;
-   }
-   html {
-      font-size: 10px;
+      margin: 2px;
    }
    .card {
       width: 49%;
    }
    .card:not(:nth-child(2n)) {
       margin-right: 2%;
-   }
-   .site-title a {
-      font-size: 1.8rem;
    }
    .post {
       font-size: 1.2rem;
