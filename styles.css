@@ -437,6 +437,8 @@ html, body {
    background: url(img/index-menu/15.webp) top center/cover no-repeat;
 }
 .block {
+   display: block;
+   text-decoration: none;
    width: 31.333333%;
    height: 250px;
    overflow: hidden;
@@ -463,7 +465,6 @@ html, body {
 }
 .block:hover:after {
    background: #073c4948;
-   cursor: pointer;
 }
 
 .block__title {
@@ -578,7 +579,56 @@ html, body {
 } */
 
 /********** Модальные окна **********/
-.btn-close {
+.popup {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   z-index: 34;
+   background: #0b3e4bb6;
+   visibility: hidden;
+   opacity: 0;
+   transition: all 0.4s ease-in-out;
+}
+.popup.open {
+   visibility: visible;
+   opacity: 1;
+}
+.popup.open .popup__content {
+   transform: translate(0, 0);
+}
+.popup__body {
+   display: flex;
+   min-height: 100%;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+   padding: 10% 15px 0 15px;
+
+}
+
+.popup__content {
+   background-color: rgb(230, 230, 230);
+   max-width: 1100px;
+   padding: 0.5rem 2rem;
+   border-radius: 8px;
+   position: relative;
+   transform: translate(0, -100%);
+   transition: all 0.4s ease-in-out;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
+.popup__header {
+   text-align: center;
+}
+.popup__close {
+   position: absolute;
+   top: 2rem;
+   right: 2rem;
+}
+/* .btn-close {
    color: #004d7abd;
    font-size: 1.875rem;
    text-decoration: none;
@@ -656,7 +706,7 @@ html, body {
 
 .btn:hover {
    background: #004e7a;
-}
+} */
 
 /********** Подвал сайта **********/
 .upper-footer {

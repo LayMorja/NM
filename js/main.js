@@ -34,3 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   onScrollHeader()
 });
+
+
+const popup = document.querySelector(".popup");
+const block = document.querySelector('.block');
+
+block.addEventListener('click', function () {
+   popup.classList.toggle('open')
+})
