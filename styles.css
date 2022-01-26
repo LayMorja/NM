@@ -18,6 +18,10 @@ body {
    font-family: 'Montserrat', sans-serif;
 }
 
+body.lock {
+   overflow: hidden;
+}
+
 html, body {
    height: 100%;
 }
@@ -590,6 +594,9 @@ html, body {
    visibility: hidden;
    opacity: 0;
    transition: all 0.4s ease-in-out;
+   overflow-x: hidden;
+   overflow-y: auto;
+   padding: 0 0 5% 0;
 }
 .popup.open {
    visibility: visible;
@@ -616,8 +623,6 @@ html, body {
    position: relative;
    transform: translate(0, -100%);
    transition: all 0.4s ease-in-out;
-   overflow-x: hidden;
-   overflow-y: auto;
 }
 
 .popup__header {
@@ -625,8 +630,8 @@ html, body {
 }
 .popup__close {
    position: absolute;
-   top: 2rem;
-   right: 2rem;
+   top: 1rem;
+   right: 1rem;
 }
 /* .btn-close {
    color: #004d7abd;
