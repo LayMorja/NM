@@ -322,11 +322,18 @@ html, body {
    position: absolute;
    right: 5%;
    bottom: 5%;
-   font-size: 2rem;
+   font-size: 1.5rem;
    color: #fff;
-   background: #06313bc5;
+   background: #129cbec5;
+   border: 2px solid #129cbec5;
    border-radius: 5px 25px 5px 25px;
-   padding: 20px;
+   padding: 1rem 1.2rem;
+   text-decoration: none;
+   transition: all 0.2s ease-in-out;
+}
+.owl-slide-text:hover {
+   background: #0e7994c5;
+   text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
 }
 
 .master-slide-text {
@@ -379,7 +386,19 @@ html, body {
    flex: 1 1 auto;
 }
 .main .center {
-   max-width: 1240px;
+   max-width: 920px;
+}
+.site__greetings {
+   color: #094352;
+   text-align: justify;
+}
+.site__greetings .first {
+   text-align: center;
+   font-size: 1.7rem;
+   font-weight: 700;
+   margin-bottom: 1.5rem;
+   margin-top: 1rem;
+   line-height: 110%;
 }
 .index-menu__header {
    text-align: left;
