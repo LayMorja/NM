@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Направления творчества</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="./css/card.css">
+      <link rel="stylesheet" href="css/media.css">
+      <link rel="stylesheet" href="css/lightgallery.css">
+      <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+   </head>
+   <body>
+      <div class="wrapper">
+         <!-- "Хедер" сайта -->
+      <header class="header">
+         <div class="upper-header">
+            <div class="center">
+               <div class="upper-header__content">
+                  <span class="site-title"><a href="./index.htm">Мастера Севера </a> <span>&nbsp;—&nbsp;путеводитель по народному творчеству</span></span>
+
+                  <div class="user-block">
+                     <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                     <a href="login.htm"><i class="fa fa-user" aria-hidden="true"></i></a>
+                     <!-- <button class="m-menu">
+                           <span class="line"></span>
+                           <span class="line"></span>
+                           <span class="line"></span>
+                        </button> -->
+                  </div>
+
+                  <!-- <div class="upper-header_right">
+                        <input type="text" class="search-input" placeholder="Поиск по сайту...">
+
+                        <div class="log-panel">
+                           <div class="entrance" aria-hidden="true">
+                              <div class="modal-dialog">
+                              <div class="modal-header">
+                                 <h2>Вход</h2>
+                                 <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+                              </div>
+                              <div class="modal-body">
+                                 <input type="text" name="user" placeholder="Логин" size="20" /><br>
+                                 <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+                              <div class="modal-footer">
+                              
+                                 <a href="#" class="btn">Войти</a>
+                              </div>
+                              </div>
+                           </div>
+
+                           <div class="registration" aria-hidden="true">
+                              <div class="modal-dialog">
+                              <div class="modal-header">
+                                 <h2>Регистрация</h2>
+                                 <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+                              </div>
+                              <div class="modal-body">
+                                 <input type="text" name="user" placeholder="Логин" size="20" /><br>
+                                 <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+                              <div class="modal-footer">
+                              
+                                 <a href="#" class="btn">Зарегистрироваться</a>
+                              </div>
+                              </div>
+                           </div>
+                           
+                           <a href="#" class="nav-link modal-enter">Вход</a>
+                           <a href="#" class="nav-link modal-reg">Регистрация</a>
+                        </div>
+                     </div> -->
+               </div>
+            </div>
+         </div>
+
+         <nav class="header-nav">
+            <input type="checkbox" name="toggle" id="menu" class="menu-toggle">
+            <label for="menu" class="menu-toggle"><i class="fa fa-bars"></i>Меню</label>
+            <ul class="header-list">
+               <!-- <li class="header-item">
+                  <a href="./index.htm">Новости</a>
+               </li> -->
+               <li class="header-item">
+                  <a href="top.htm">Виды ремёсел</a>
+               </li>
+               <!-- <li class="header-item">
+                  <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m1">
+                  <a href="top.htm">Виды изделий</a>
+                  <label for="sub_m1" class="submenu-toggle"><i class="fa"></i></label>
+                  <ul class="dropdown-list">
+                     <li class="dropdown-item">
+                        <a href="toys.htm">Игрушки</a>
+                     </li>
+                     <li class="dropdown-item">
+                        <a href="#">Одежда</a>
+                        <ul>
+                           <li><a href="#">Юбки</a></li>
+                           <li><a href="#">Брючки</a></li>
+                           <li><a href="#">Сарафаны</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>               
+               <li class="header-item">
+                  <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m2">
+                  <a href="materials.htm">Материалы</a>
+                  <label for="sub_m2" class="submenu-toggle"><i class="fa"></i></label>
+                  <ul class="dropdown-list">
+                     <li class="dropdown-item">
+                        <a href="#">Древесина</a>
+                     </li>
+                     <li class="dropdown-item">
+                        <a href="#">Мягкие материалы</a>
+                     </li>
+                  </ul>
+               </li> -->
+               <li class="header-item">
+                  <!-- <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m3"> -->
+                  <a href="./masters.htm">Мастера Северодвинска</a>
+                  <!-- <label for="sub_m3" class="submenu-toggle"><i class="fa"></i></label> -->
+                  <!-- <ul class="dropdown-list">
+                           <li class="dropdown-item">
+                              <a href="./balabanova.htm">Балабанова Ирина</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./gordon.htm">Гордон Елена</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./primakova.htm">Примакова Наталья</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./savchenko.htm">Савченко Лариса</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./torchova.htm">Торохова Анна</a>
+                           </li>
+                        </ul> -->
+               </li>
+               <!-- <li class="header-item">
+                  <a href="#">Ярмарка Талантов</a>
+               </li> -->
+               <li class="header-item">
+                  <a href="./master-class.htm">Мастер-классы</a>
+               </li>
+               <li class="header-item">
+                  <a href="int-places.htm">Интересные места</a>
+               </li>
+               <li class="header-item user">
+                     <a href="#" title="Поиск по сайту"><i class="fa fa-search" aria-hidden="true"></i></a>
+                     <a href="login.htm" title="Об авторе"><i class="fa fa-user" aria-hidden="true"></i></a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+
+         <!-- Основной контент -->
+         <main class="main">
+            <div class="center">
+               <div class="types">
+                  <h1 class="types__title title">Направления творчества</h1>
+                  <div class="types__filters">
+                     <h2 class="filters__title">Виды изделий:</h2>
+                     <button type="button" class="types__button" data-filter="all">Все виды</button>
+                     <button type="button" class="types__button" data-filter=".f-toys">Игрушки</button>
+                     <button type="button" class="types__button" data-filter=".f-tableware">Кухонный обиход</button>
+                     <button type="button" class="types__button" data-filter=".f-lingerie">Бельё</button>
+                     <button type="button" class="types__button" data-filter=".f-decorations">Украшения</button>
+                     <button type="button" class="types__button" data-filter=".f-clothes">Одежда</button>
+                  </div>
+                  <div class="types__row">
+                     <a href="#popup" id="im-1" class="types__block block f-decorations mix popup-link">
+                        <h2 class="block__title">Резьба по дереву</h2>
+                     </a>
+                     <div id="popup" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Резьба по дереву</h1>
+                                 <a href="#" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Дерево по праву можно считать одним из самых древних материалов, используемых человеком. Еще на заре времен люди поняли насколько легкодоступной и простой может быть работа с ним. Древесина широко использовалась не только в строительстве, но и в декоративном творчестве.
+                                 </p>
+                                 <p>
+                                    Искусство резьбы тесно связано с отдельным видом архитектуры — деревянным зодчеством. Люди никогда не подавляли свое внутреннее желание окружить себя красивыми вещами. Это стремление к красоте часто становилось толчком для развития искусства в различных направлениях.
+                                 </p>
+                                 <p>
+                                    Карвинг не является исключением. Как это обычно бывает, лучшие вещи сначала клали на алтари божествам, которым поклонялись в то время. Самым ранним примером резьбы по дереву считается идол Шигира. Он был найден во время раскопок под Екатеринбургом. Изделие представляет собой фигурно вырезанную колонну с тематическими рисунками на поверхности.
+                                 </p>
+                                 <p>
+                                    Ученые предполагают, что идол был создан в середине 8 века. Колонна была изготовлена из лиственницы (вопреки распространенному заблуждению о дубе). Помимо идола из Шигира, есть и более поздние находки, украшенные резными элементами, но техника этих мастеров была примитивной и грубой. Современный человек назвал бы их скорее оригинальными, чем красивыми. На это повлияло использование плохих инструментов, которыми пользовались мастера того времени.
+                                 </p>
+                                 <p>
+                                    Теперь мы совершим большой скачок почти на десять веков и вернемся в 16 век, когда начали появляться первые скульптурные изделия. Из сферы ритуалов и язычества резьба по дереву постепенно перешла в повседневную жизнь.
+                                 </p>
+                                 <p>
+                                    Причудливые узоры стали украшать скромную мебель и деревянные сосуды. Техника стала более совершенной благодаря расширению набора специальных инструментов, которые начали использовать мастера. Помимо обычной древесины, использовались даже корни деревьев и лопух (разновидность придатка). Их причудливая и неправильная форма вызывала абстрактные ассоциации и вдохновляла скульпторов на создание оригинальных, асимметричных предметов быта.
+                                 </p>
+                                 <p>
+                                    Артель массово украшала церкви, соборы, дворцы и дома богатых горожан. Большинство предметов домашней утвари (от сундуков до ложек) были покрыты декоративными узорами. Поскольку даже средний класс стремился украшать свои дома, возникло отдельное направление, называемое домовой резьбой.
+                                 </p>
+                                 <p>
+                                    Многие резьбы сохранились до наших дней. Большинство из них стали официальными памятниками искусства. Параллельно с домовой резьбой появилась более сложная техника — объемная резьба. Рельефные орнаменты требовали от резчиков большого мастерства, но эффект того стоил. Они вырезали сундуки, стулья, игрушки, подставки, пряничные доски (аналоги подносов), ложки, табакерки, шкатулки, спинки кроватей, ленты и ставни. Хотя всего несколько десятилетий назад этот вид искусства находился в упадке, традиции древнерусской резьбы по дереву постепенно возрождаются. Не зря говорят, что все новое просто хорошо забывается.
+                                 </p>
+                                 
+                              </div>
+                              <div class="popup__footer">
+                                 <div id="lightgallery">
+                                    <a class="gallery-item" href="img/types/dr_1.jpg" data-lg-size="1600-2400">
+                                       <img alt="img1" src="img/types/dr_1.jpg" />
+                                    </a>
+                                    <a class="gallery-item" href="img/types/dr_2.jpg" data-lg-size="1024-800">
+                                       <img alt="img2" src="img/types/dr_2.jpg" />
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-2" id="im-2" class="types__block block f-tableware mix popup-link">
+                        <h2 class="block__title">Плетение из корня</h2>
+                     </a>
+                     <div id="popup-2" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Плетение из корня</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-3" id="im-3" class="types__block block f-toys mix popup-link">
+                        <h2 class="block__title">Народная кукла</h2>
+                     </a>
+                     <div id="popup-3" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Народная кукла</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-4" id="im-4" class="types__block block f-decorations mix popup-link">
+                        <h2 class="block__title">Вышивка</h2>
+                     </a>
+                     <div id="popup-4" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Вышивка</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-5" id="im-5" class="types__block block f-decorations f-lingerie mix popup-link">
+                        <h2 class="block__title">Лоскутное шитьё</h2>
+                     </a>
+                     <div id="popup-5" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Лоскутное шитьё</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-6" id="im-6" class="types__block block f-toys mix popup-link">
+                        <h2 class="block__title">Каргопольская игрушка</h2>
+                     </a>
+                     <div id="popup-6" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Каргопольская игрушка</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-7" id="im-7" class="types__block block f-tableware mix popup-link">
+                        <h2 class="block__title">Обработка бересты</h2>
+                     </a>
+                     <div id="popup-7" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Обработка бересты</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-8" id="im-8" class="types__block block f-clothes mix popup-link">
+                        <h2 class="block__title">Орнаментальное вязание</h2>
+                     </a>
+                     <div id="popup-8" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Орнаментальное вязание</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-9" id="im-9" class="types__block block f-tableware f-decorations mix popup-link">
+                        <h2 class="block__title">Роспись</h2>
+                     </a>
+                     <div id="popup-9" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Роспись</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-10" id="im-10" class="types__block block f-clothes mix popup-link">
+                        <h2 class="block__title">Народный костюм</h2>
+                     </a>
+                     <div id="popup-10" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Народный костюм</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-11" id="im-11" class="types__block block f-tableware f-decorations mix popup-link">
+                        <h2 class="block__title">Керамика</h2>
+                     </a>
+                     <div id="popup-11" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Керамика</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-12" id="im-12" class="types__block block f-tableware f-decorations mix popup-link">
+                        <h2 class="block__title">Гончарное дело</h2>
+                     </a>
+                     <div id="popup-12" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Гончарное дело</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-13" id="im-13" class="types__block block f-decorations f-clothes mix popup-link">
+                        <h2 class="block__title">Ткачество</h2>
+                     </a>
+                     <div id="popup-13" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Ткачество</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-14" id="im-14" class="types__block block f-decorations f-tableware mix popup-link">
+                        <h2 class="block__title">Кружево</h2>
+                     </a>
+                     <div id="popup-14" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Кружево</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#popup-15" id="im-15" class="mix types__block block f-tableware popup-link">
+                        <h2 class="block__title">Бондарное дело</h2>
+                     </a>
+                     <div id="popup-15" class="popup">
+                        <div class="popup__body">
+                           <div class="popup__content">
+                              <div class="popup__header">
+                                 <h1 class="popup__title">Бондарное дело</h1>
+                                 <a href="#header" class="popup__close close-popup">
+                                    <img src="img/icons/cross.svg" alt="Закрыть модальное окно">
+                                 </a>
+                              </div>
+                              <div class="popup__info">
+                                 <p>
+                                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил диких вопроса предложения. Которой ручеек первую силуэт маленькая единственное однажды сих ведущими живет это. Всеми подзаголовок рекламных, оксмокс, рукопись это рот до маленький напоивший за города текст он, запятой алфавит послушавшись большого повстречался жизни вершину она путь. Пустился, его.
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                                 <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit molestias recusandae laboriosam nemo at blanditiis quas nostrum reprehenderit ipsam. Excepturi amet incidunt aperiam quae? Reprehenderit repudiandae voluptatem praesentium omnis qui eaque repellendus sunt ea est voluptas rem officia labore consequuntur, eos dolorum delectus, earum iusto ad corrupti suscipit quaerat, facilis saepe. Obcaecati voluptas sunt, officiis quas officia quos accusamus, facilis repudiandae ipsam inventore unde. Ea facere nulla rem praesentium vitae non, facilis blanditiis quia aliquam exercitationem velit at in id deleniti perferendis, cumque quo nihil, dolores esse alias voluptate amet optio quam? Atque natus ea excepturi, velit repellendus dolorum ex modi quo nihil provident ipsam quidem mollitia laborum iure! Illum optio corporis, libero fugit aliquid consequatur aut itaque facilis nihil assumenda! Magnam optio ratione nisi repellat accusantium asperiores fugiat perferendis vero magni dolores minima harum accusamus doloremque quis reprehenderit omnis quas, repudiandae quibusdam. Numquam facilis hic cum totam. Minima!
+                                 </p>
+                              </div>
+                              <div class="popup__footer">
+                                 <h2 class="footer__links">Связанные статьи:</h2>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>  
+         
+         <!-- Подвал сайта -->
+         <footer class="footer">
+            <div class="upper-footer">
+               <div class="center">                  
+                  <a class="footer-title" href="./index.htm">Мастера Севера</a>
+               </div>
+            </div>
+         </footer>
+      </div>
+   <!-- Подключение скриптов -->
+   <script src="js/mixitup.min.js"></script>
+   <script src="js/main.js" defer></script>
+   <script src="js/card.js" defer></script>
+   <script>
+      var mixer = mixitup(".types__row");
+   </script>
+   </body>
+</html>
