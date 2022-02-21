@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Этот сайт — проводник в мир северного творчества. Он ознакомит вас с мастерами прикладного искусства Северодвинска и их работами; культурными центрами и интересными местами Севера, а также поможет в реализации личных задумок.">
+   <title>Мастера Севера</title>
+   <meta property="og:site_name" content="Мастера Севера">
+	<link rel="shortcut icon" href="favicon.ico">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/font-awesome.css">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="css/media.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="upper-header">
+            <div class="center">
+               <div class="upper-header__content">
+                  <span class="site-title"><a href="./index.htm">Мастера Севера </a> <span>&nbsp;—&nbsp;путеводитель по народному творчеству</span></span>
+
+                  <div class="user-block">
+                     <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                     <a href="login.htm"><i class="fa fa-user" aria-hidden="true"></i></a>
+                     <!-- <button class="m-menu">
+                           <span class="line"></span>
+                           <span class="line"></span>
+                           <span class="line"></span>
+                        </button> -->
+                  </div>
+
+                  <!-- <div class="upper-header_right">
+                        <input type="text" class="search-input" placeholder="Поиск по сайту...">
+
+                        <div class="log-panel">
+                           <div class="entrance" aria-hidden="true">
+                              <div class="modal-dialog">
+                              <div class="modal-header">
+                                 <h2>Вход</h2>
+                                 <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+                              </div>
+                              <div class="modal-body">
+                                 <input type="text" name="user" placeholder="Логин" size="20" /><br>
+                                 <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+                              <div class="modal-footer">
+                              
+                                 <a href="#" class="btn">Войти</a>
+                              </div>
+                              </div>
+                           </div>
+
+                           <div class="registration" aria-hidden="true">
+                              <div class="modal-dialog">
+                              <div class="modal-header">
+                                 <h2>Регистрация</h2>
+                                 <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+                              </div>
+                              <div class="modal-body">
+                                 <input type="text" name="user" placeholder="Логин" size="20" /><br>
+                                 <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+                              <div class="modal-footer">
+                              
+                                 <a href="#" class="btn">Зарегистрироваться</a>
+                              </div>
+                              </div>
+                           </div>
+                           
+                           <a href="#" class="nav-link modal-enter">Вход</a>
+                           <a href="#" class="nav-link modal-reg">Регистрация</a>
+                        </div>
+                     </div> -->
+               </div>
+            </div>
+         </div>
+
+         <nav class="header-nav">
+            <input type="checkbox" name="toggle" id="menu" class="menu-toggle">
+            <label for="menu" class="menu-toggle"><i class="fa fa-bars"></i>Меню</label>
+            <ul class="header-list">
+               <!-- <li class="header-item">
+                  <a href="./index.htm">Новости</a>
+               </li> -->
+               <li class="header-item">
+                  <a href="top.htm">Виды ремёсел</a>
+               </li>
+               <!-- <li class="header-item">
+                  <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m1">
+                  <a href="top.htm">Виды изделий</a>
+                  <label for="sub_m1" class="submenu-toggle"><i class="fa"></i></label>
+                  <ul class="dropdown-list">
+                     <li class="dropdown-item">
+                        <a href="toys.htm">Игрушки</a>
+                     </li>
+                     <li class="dropdown-item">
+                        <a href="#">Одежда</a>
+                        <ul>
+                           <li><a href="#">Юбки</a></li>
+                           <li><a href="#">Брючки</a></li>
+                           <li><a href="#">Сарафаны</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>               
+               <li class="header-item">
+                  <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m2">
+                  <a href="materials.htm">Материалы</a>
+                  <label for="sub_m2" class="submenu-toggle"><i class="fa"></i></label>
+                  <ul class="dropdown-list">
+                     <li class="dropdown-item">
+                        <a href="#">Древесина</a>
+                     </li>
+                     <li class="dropdown-item">
+                        <a href="#">Мягкие материалы</a>
+                     </li>
+                  </ul>
+               </li> -->
+               <li class="header-item">
+                  <!-- <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m3"> -->
+                  <a href="./masters.htm">Мастера Северодвинска</a>
+                  <!-- <label for="sub_m3" class="submenu-toggle"><i class="fa"></i></label> -->
+                  <!-- <ul class="dropdown-list">
+                           <li class="dropdown-item">
+                              <a href="./balabanova.htm">Балабанова Ирина</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./gordon.htm">Гордон Елена</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./primakova.htm">Примакова Наталья</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./savchenko.htm">Савченко Лариса</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./torchova.htm">Торохова Анна</a>
+                           </li>
+                        </ul> -->
+               </li>
+               <!-- <li class="header-item">
+                  <a href="#">Ярмарка Талантов</a>
+               </li> -->
+               <li class="header-item">
+                  <a href="./master-class.htm">Мастер-классы</a>
+               </li>
+               <li class="header-item">
+                  <a href="int-places.htm">Интересные места</a>
+               </li>
+               <li class="header-item user">
+                     <a href="#" title="Поиск по сайту"><i class="fa fa-search" aria-hidden="true"></i></a>
+                     <a href="login.htm" title="Об авторе"><i class="fa fa-user" aria-hidden="true"></i></a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+
+      <!-- Карусель -->
+      <div class="main-carousel-block">
+         <div class="owl-carousel main-carousel">
+            <div class="owl-slide">
+               <img src="img/carousel/3.webp">
+               <a href="top.htm#popup" class="owl-slide-text">
+                  Народная игрушка
+               </a>
+            </div>
+            <div class="owl-slide">
+               <img src="img/carousel/6.webp">
+               <a href="#" class="owl-slide-text">
+                  Лоскутное шитьё
+               </a>
+            </div>
+            <div class="owl-slide">
+               <img src="img/carousel/7.webp">
+               <a href="#" class="owl-slide-text">
+                  Гончарное дело
+               </a>
+            </div>
+            <div class="owl-slide">
+               <img src="img/carousel/8.webp">
+               <a href="#" class="owl-slide-text">
+                  Бондарное дело
+               </a>
+            </div>
+            <div class="owl-slide">
+               <img src="img/carousel/5.webp">
+               <a href="#" class="owl-slide-text">
+                  Народная игрушка
+               </a>
+            </div>
+            <div class="owl-slide">
+               <img src="img/carousel/9.webp">
+               <a href="#" class="owl-slide-text">
+                  Обработка бересты
+               </a>
+            </div>
+         </div>
+      </div>
+
+      <!-- Основной контент -->
+      <main class="main main-index">
+         <div class="center">
+            <div class="site__greetings">
+               <p class="first">
+                  Добро пожаловать на веб&#8209;ресурс "Мастера&nbsp;Севера"
+               </p>
+               <p>
+                  Этот сайт — проводник в мир северного творчества. Он ознакомит вас с мастерами прикладного искусства Северодвинска и их работами; культурными центрами и интересными местами Севера, а также поможет в реализации личных задумок.
+               </p>
+            </div>
+         </div>
+      </main>
+
+      <footer class="footer">
+         <div class="upper-footer">
+            <div class="center">                  
+               <a class="footer-title" href="./index.htm">Мастера Севера</a>
+            </div>
+         </div>
+      </footer>
+   </div>
+
+   <!-- Подключение скриптов -->
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/mainJQ.js" defer></script>
+   <script src="js/main.js" defer></script>
+</body>
+
+</html>

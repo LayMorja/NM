@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Мастер-классы</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="./css/card.css">
+      <link rel="stylesheet" href="css/media.css">
+      <link rel="stylesheet" href="css/lightgallery.css">
+      <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+   </head>
+   <body>
+      <div class="wrapper">
+         <!-- "Хедер" сайта -->
+      <header class="header">
+         <div class="upper-header">
+            <div class="center">
+               <div class="upper-header__content">
+                  <span class="site-title"><a href="./index.htm">Мастера Севера </a> <span>&nbsp;—&nbsp;путеводитель по народному творчеству</span></span>
+
+                  <div class="user-block">
+                     <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                     <a href="login.htm"><i class="fa fa-user" aria-hidden="true"></i></a>
+                     <!-- <button class="m-menu">
+                           <span class="line"></span>
+                           <span class="line"></span>
+                           <span class="line"></span>
+                        </button> -->
+                  </div>
+
+                  <!-- <div class="upper-header_right">
+                        <input type="text" class="search-input" placeholder="Поиск по сайту...">
+
+                        <div class="log-panel">
+                           <div class="entrance" aria-hidden="true">
+                              <div class="modal-dialog">
+                              <div class="modal-header">
+                                 <h2>Вход</h2>
+                                 <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+                              </div>
+                              <div class="modal-body">
+                                 <input type="text" name="user" placeholder="Логин" size="20" /><br>
+                                 <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+                              <div class="modal-footer">
+                              
+                                 <a href="#" class="btn">Войти</a>
+                              </div>
+                              </div>
+                           </div>
+
+                           <div class="registration" aria-hidden="true">
+                              <div class="modal-dialog">
+                              <div class="modal-header">
+                                 <h2>Регистрация</h2>
+                                 <a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+                              </div>
+                              <div class="modal-body">
+                                 <input type="text" name="user" placeholder="Логин" size="20" /><br>
+                                 <input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+                              <div class="modal-footer">
+                              
+                                 <a href="#" class="btn">Зарегистрироваться</a>
+                              </div>
+                              </div>
+                           </div>
+                           
+                           <a href="#" class="nav-link modal-enter">Вход</a>
+                           <a href="#" class="nav-link modal-reg">Регистрация</a>
+                        </div>
+                     </div> -->
+               </div>
+            </div>
+         </div>
+
+         <nav class="header-nav">
+            <input type="checkbox" name="toggle" id="menu" class="menu-toggle">
+            <label for="menu" class="menu-toggle"><i class="fa fa-bars"></i>Меню</label>
+            <ul class="header-list">
+               <!-- <li class="header-item">
+                  <a href="./index.htm">Новости</a>
+               </li> -->
+               <li class="header-item">
+                  <a href="top.htm">Виды ремёсел</a>
+               </li>
+               <!-- <li class="header-item">
+                  <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m1">
+                  <a href="top.htm">Виды изделий</a>
+                  <label for="sub_m1" class="submenu-toggle"><i class="fa"></i></label>
+                  <ul class="dropdown-list">
+                     <li class="dropdown-item">
+                        <a href="toys.htm">Игрушки</a>
+                     </li>
+                     <li class="dropdown-item">
+                        <a href="#">Одежда</a>
+                        <ul>
+                           <li><a href="#">Юбки</a></li>
+                           <li><a href="#">Брючки</a></li>
+                           <li><a href="#">Сарафаны</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>               
+               <li class="header-item">
+                  <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m2">
+                  <a href="materials.htm">Материалы</a>
+                  <label for="sub_m2" class="submenu-toggle"><i class="fa"></i></label>
+                  <ul class="dropdown-list">
+                     <li class="dropdown-item">
+                        <a href="#">Древесина</a>
+                     </li>
+                     <li class="dropdown-item">
+                        <a href="#">Мягкие материалы</a>
+                     </li>
+                  </ul>
+               </li> -->
+               <li class="header-item">
+                  <!-- <input type="checkbox" name="toggle" class="submenu-toggle" id="sub_m3"> -->
+                  <a href="./masters.htm">Мастера Северодвинска</a>
+                  <!-- <label for="sub_m3" class="submenu-toggle"><i class="fa"></i></label> -->
+                  <!-- <ul class="dropdown-list">
+                           <li class="dropdown-item">
+                              <a href="./balabanova.htm">Балабанова Ирина</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./gordon.htm">Гордон Елена</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./primakova.htm">Примакова Наталья</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./savchenko.htm">Савченко Лариса</a>
+                           </li>
+                           <li class="dropdown-item">
+                              <a href="./torchova.htm">Торохова Анна</a>
+                           </li>
+                        </ul> -->
+               </li>
+               <!-- <li class="header-item">
+                  <a href="#">Ярмарка Талантов</a>
+               </li> -->
+               <li class="header-item">
+                  <a href="./master-class.htm">Мастер-классы</a>
+               </li>
+               <li class="header-item">
+                  <a href="int-places.htm">Интересные места</a>
+               </li>
+               <li class="header-item user">
+                     <a href="#" title="Поиск по сайту"><i class="fa fa-search" aria-hidden="true"></i></a>
+                     <a href="login.htm" title="Об авторе"><i class="fa fa-user" aria-hidden="true"></i></a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+
+         <!-- Основной контент -->
+         <main class="main">
+            <div class="center">
+               <div class="master-class">
+                  <h1 class="master-class__title title">Мастер-классы</h1>
+                  <div class="types__filters">
+                     <h2 class="filters__title">По видам изделий:</h2>
+                     <button type="button" class="types__button" data-filter="all">Все мастер-классы</button>
+                     <button type="button" class="types__button" data-filter=".f-toys">Игрушки</button>
+                     <button type="button" class="types__button" data-filter=".f-tableware">Кухонный обиход</button>
+                     <button type="button" class="types__button" data-filter=".f-lingerie">Бельё</button>
+                     <button type="button" class="types__button" data-filter=".f-decorations">Украшения</button>
+                     <button type="button" class="types__button" data-filter=".f-clothes">Одежда</button>
+                  </div>
+                  <div class="master-class">
+                     <div class="master-class__body">
+                        <div class="master-class__item item-master-class mix f-decorations">
+                           <div class="item-master-class__content">
+                              <h2 class="item-master-class__title">
+                                 <a href="https://youtu.be/RNBgY7314gU" target="_blank" class="item-master-class__link-title">
+                                    Резьба по дереву
+                                 </a>
+                              </h2>
+                              <div class="item-master-class__text">
+                                 Графическое решение классической композиции в дереве, а также тонирование. Красивая итоговая работа, доступное и понятное объяснение действий
+                              </div>
+                           </div>
+                           <div class="item-master-class__image">
+                              <img src="img/types/dr_1.jpg" alt="">
+                           </div>
+                        </div>
+                        
+                        <div class="master-class__item item-master-class mix f-decorations f-tableware">
+                           <div class="item-master-class__content">
+                              <h2 class="item-master-class__title">
+                                 <a href="https://youtu.be/4brHgW14wio" target="_blank" class="item-master-class__link-title">
+                                    Плетение из корня
+                                 </a>
+                              </h2>
+                              <div class="item-master-class__text">
+                                 Снова возвращаемся к теме корневого плетения бумажными трубочками. Планируем снять несколько мастер-классов, призванных помочь освоению и усовершенствованию этого красивого вида плетения. В этом МК я подробно расскажу о том, как красить бумажные трубочки, как начать плести круглое дно и много других советов.
+                              </div>     
+                           </div>                         
+                           <div class="item-master-class__image">
+                              <img src="img/types/2.webp" alt="">
+                           </div>
+                        </div>
+                        
+                        <div class="master-class__item item-master-class mix f-toys">
+                           <div class="item-master-class__content">
+                              <h2 class="item-master-class__title">
+                                 <a href="https://youtu.be/DSYvORNW89U" target="_blank" class="item-master-class__link-title">
+                                    Народная кукла
+                                 </a>
+                              </h2>
+                              <div class="item-master-class__text">
+                                 Колокольчик - куколка добрых вестей и хорошего настроения. Простой и понятный мастер-класс без лишней "болтологии"!
+                              </div>
+                           </div>
+                           <div class="item-master-class__image">
+                              <img src="img/types/3.webp" alt="">
+                           </div>
+                        </div>
+
+                        <div class="master-class__item item-master-class mix f-decorations">
+                           <div class="item-master-class__content">
+                              <h2 class="item-master-class__title">
+                                 <a href="https://youtu.be/H8eyPVpzCWQ" target="_blank" class="item-master-class__link-title">
+                                    Вышивка
+                                 </a>
+                              </h2>
+                              <div class="item-master-class__text">
+                                 Мастер-класс для новичков. Вы сможете получить базовые знания по вышивке вместе с опытным мастером в сопровождение понятного и простого объяснения.
+                              </div>
+                           </div>
+                           <div class="item-master-class__image">
+                              <img src="img/types/4.webp" alt="">
+                           </div>
+                        </div>
+                        
+                        <div class="master-class__item item-master-class mix f-lingerie f-decorations">
+                           <div class="item-master-class__content">
+                              <h2 class="item-master-class__title">
+                                 <a href="https://youtu.be/76qm0AwsFVM" target="_blank" class="item-master-class__link-title">
+                                    Плетение из корня
+                                 </a>
+                              </h2>
+                              <div class="item-master-class__text">
+                                 Один из вариантов пошива лоскутной наволочки. В этот раз я решила сшить вариант с простегиванием лицевой стороны. Для этого я взяла отрез хлопка и синтепон 100, немного больше основного квадрата. Квадрат посередине я простегивала 2мя нитками разного цвета
+                              </div>
+                           </div>
+                           <div class="item-master-class__image">
+                              <img src="img/types/5.webp" alt="">
+                           </div>
+                        </div>
+                        
+                        <div class="master-class__item item-master-class mix f-toys">
+                           <div class="item-master-class__content">
+                              <h2 class="item-master-class__title">
+                                 <a href="https://youtu.be/3nNYnQSclY4" target="_blank" class="item-master-class__link-title">
+                                    Народная игрушка
+                                 </a>
+                              </h2>
+                              <div class="item-master-class__text">
+                                 <p>
+                                    В этом мастер-классе вы  увидите основные моменты работы с глиной.  Почувствуете разницу от работы с пластилином и соленым тестом. Новичкам однозначно будет интересно. А может, даже и опытные мастера что-то найдут для себя. Работы нас ждет немало, поэтому меньше слов — больше дела! Будем работать над созданием народной игрушки «Барыня».
+                                 </p>
+                                 <p>
+                                    Материалы: стек (ножик для пластилина), глина, вода, доска (40см.*60см.)</p>
+                              </div>
+                           </div>
+                           <div class="item-master-class__image">
+                              <img src="img/types/6.webp" alt="">
+                           </div>
+                        </div>
+                        
+                        <div class="master-class__item item-master-class mix f-tableware f-decorations">
+                           <div class="item-master-class__content">
+                              <h2 class="item-master-class__title">
+                                 <a href="https://youtu.be/rhtD-67Qf8o" target="_blank" class="item-master-class__link-title">
+                                    Обработка бересты
+                                 </a>
+                              </h2>
+                              <div class="item-master-class__text">
+                                 <p>
+                                    Мастер-класс по художественной обработке бересты «Ангел».
+                                 </p>
+                                 <p>
+                                    Мероприятие проводит Ошарова Екатерина Валерьевна, мастер студии отдела ремесел КГБУК «Центр культурных инициатив».
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="item-master-class__image">
+                              <img src="img/types/7.webp" alt="">
+                           </div>
+                        </div>
+                        
+                        <div class="master-class__item item-master-class mix f-clothes">
+                           <div class="item-master-class__content">
+                              <h2 class="item-master-class__title">
+                                 <a href="https://youtu.be/76qm0AwsFVM" target="_blank" class="item-master-class__link-title">
+                                    Орнаментальное вязание
+                                 </a>
+                              </h2>
+                              <div class="item-master-class__text">
+                                 <p>
+                                    Орнаментальное вязание появилось в Архангельской губернии в конце XIX — начале XX века. На Русском Севере особо полюбились геометрические узоры. В основе геометрического орнамента, как правило, лежат, такие элементы, как ромб, квадрат, крест.
+                                 </p>
+                                 <p>
+                                    Для выполнения мастер-класса Вам понадобятся: нити для вязания, спицы, ножницы, схема для вязания, линейка
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="item-master-class__image">
+                              <img src="img/types/8.webp" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>  
+         
+         <!-- Подвал сайта -->
+         <footer class="footer">
+            <div class="upper-footer">
+               <div class="center">                  
+                  <a class="footer-title" href="./index.htm">Мастера Севера</a>
+               </div>
+            </div>
+         </footer>
+      </div>
+   <!-- Подключение скриптов -->
+   <script src="js/mixitup.min.js"></script>
+   <script src="js/main.js" defer></script>
+   <script src="js/card.js" defer></script>
+   <script>      
+      var mixer = mixitup(".master-class__body");
+   </script>
+   </body>
+</html>
